@@ -42,8 +42,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Install Dependencies
         run: |
-          Rscript -e "install.packages('bookdown')"
-
+          Rscript _install_dependencies.R
       - name: Render book
         run: |
           Rscript _build.R
