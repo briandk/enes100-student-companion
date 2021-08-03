@@ -1,20 +1,9 @@
 bookdown::bs4_book:
-  theme:
-    primary: "#637238"
+  # theme:
+  #   primary: "#637238"
   repo:
     base: https://github.com/briandk/enes100-student-companion
     branch: main
-
-bookdown::gitbook:
-  css: style.css
-  config:
-    toc:
-      before: |
-        <li><a href="./">ENES 100 Student Companion</a></li>
-      after: |
-        <li><a href="https://github.com/briandk/enes100-student-companion" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/briandk/enes100-student-companion/edit/main/%s
-    download: ["pdf", "epub"]
 
 bookdown::pdf_book:
   includes:
