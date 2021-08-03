@@ -1,6 +1,6 @@
 bookdown::bs4_book:
-  # theme:
-  #   primary: "#637238"
+  theme:
+    primary: "#E21833" # official UMD Red: https://osc.umd.edu/licensing-trademarks/brand-standards/logos/#color
   repo:
     base: https://github.com/briandk/enes100-student-companion
     branch: main
