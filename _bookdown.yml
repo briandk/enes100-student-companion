@@ -7,7 +7,9 @@ delete_merged_file: true
 rmd_files: [
   "index.Rmd",
   "course-overview.Rmd",
+
   "supplemental-instruction.Rmd",
+  "mechanics.Rmd",
 ]
 
 

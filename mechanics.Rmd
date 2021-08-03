@@ -1,0 +1,19 @@
+# Mechanics
+
+## Newton's First Law
+
+inertia
+
+:   The tendency of an object to remain in motion (if it's already in motion) or to remain at rest (if it's already at rest
+
+## Newton's Second Law
+
+We know from **Newton's Second Law of Motion** that the net force exerted on a point is the vector sum of all forces on that point:
+
+$$
+\vec{{F_{\textrm{net}}}} = m \vec{a}
+$$
+
+## Newton's Third Law
+
+Newton's Third Law states that for every **action**, there is an equal and opposite **reaction**.
