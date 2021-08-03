@@ -1,0 +1,43 @@
+# (PART) Supplemental Instruction {.unnumbered}
+
+# Introduction {#import-intro}
+
+Creating a successful robot requires a knowledge of three core domains:
+
+-   Mechanics
+-   Electronics
+-   Programming
+
+## Mechanics
+
+We know from **Newton's Second Law of Motion** that the net force exerted on a point is the vector sum of all forces on that point:
+
+$$
+\vec{{F_{\textrm{net}}}} = m \vec{a}
+$$
+
+## Electronics
+
+**Ohm's Law** gives us the relationship between current $I$, voltage $V$, and resistance $R$ as:
+
+$$
+V = IR
+$$
+
+We can also express the **power** $P$ as a the product of voltage and current:
+
+$$
+P = IV
+$$
+
+## Programming
+
+When we first run our Arduino, we do the now-traditional programming trick of having it say hello to the world:
+
+``` c
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+  Serial.println("Hello World!");
+}
+```
