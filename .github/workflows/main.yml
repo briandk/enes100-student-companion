@@ -47,15 +47,13 @@ jobs:
       - name: Render book
         run: |
           Rscript _build.R
-          
-      - name: Install npm
-        uses: actions/setup-node@v1
 
       - name: Deploy to Netlify
-        # NETLIFY_AUTH_TOKEN added in the repo's secrets
+        uses: netlify/actions/cli@master
+        with:
+          args: deploy --prod --dir=_book
         env:
+          # NETLIFY_AUTH_TOKEN added in the repo's secrets
+          # https://docs.netlify.com/cli/get-started/#obtain-a-token-in-the-netlify-ui
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        run: |
-          npm install netlify-cli -g
-          DEBUG=* netlify deploy --prod --dir _book
