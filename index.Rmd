@@ -6,7 +6,7 @@ site: bookdown::bookdown_site
 output:
   bookdown::gitbook
 documentclass: book
-bibliography: []
+# bibliography: []
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
