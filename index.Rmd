@@ -15,13 +15,20 @@ description: "This is the student course companion for ENES 100 - Introduction t
 
 # Welcome
 
-Welcome to ENES 100!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q_vhxBqwAvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
-```c
-void setup() {
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
-```
+</iframe>
 
+Welcome to ENES 100. This e-book will be your official companion to the course. Here, you'll find:
 
+-   A course overview of topics
+-   Background and supplemental materials on the topics we cover in class, like mechanics, electronics, and programming
+-   Course instructional materials
+-   Detailed videos
+-   Course policies and procedures
+
+This book also serves as a reference for:
+
+-   The Mission Overview for our class
+-   Mission Specifications (what each team needs to accomplish)
+-   Tools and Equipment available to you in the ENES 100 Labs
