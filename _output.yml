@@ -2,6 +2,7 @@ bookdown::bs4_book:
   theme:
     primary: "#637238"
   repo: https://github.com/briandk/enes100-student-companion
+  branch: main
 
 bookdown::gitbook:
   css: style.css
