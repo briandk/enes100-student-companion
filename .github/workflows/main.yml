@@ -39,7 +39,7 @@ jobs:
         run: |
           Rscript _build.R
           
-            - name: Install npm
+      - name: Install npm
         uses: actions/setup-node@v1
 
       - name: Deploy to Netlify
