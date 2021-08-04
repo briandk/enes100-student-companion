@@ -11,7 +11,7 @@ inertia
 We know from **Newton's Second Law of Motion** that the net force exerted on a point is the vector sum of all forces on that point:
 
 $$
-\vec{{F_{\textrm{net}}}} = m \vec{a}
+\vec{F}_\textrm{net} = m \vec{a}
 $$
 
 ## Newton's Third Law
