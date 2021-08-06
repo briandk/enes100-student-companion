@@ -8,7 +8,7 @@ You are a member of an engineering firm that has been hired to aid the [<u>Ballo
 
 The mission area shown in Figure 1 indicates the location of the landing zone, narrow strip of navigable rocky terrain, and a representation of the two randomly located rocky obstacles as well as the mission destination site. All dimensions and coordinates are in meters and measured relative to the vision system's x-y frame of reference. The precise coordinates of the mission destination site will be available via WiFi transmission during each mission attempt.
 
-![Mission area showing a representative arrangement of obstacle locations.](./media/rocky-terrain.jpg){.width=80%}
+![Mission area showing a representative arrangement of obstacle locations.](./media/rocky-terrain.jpg){width="80%"}
 
 Your vehicle will be parachuted to the edge of the remote lake using the rough GPS coordinates of the payload, and will land in a random spot with a random orientation. From there you will begin communicating with the BPP command center from which your vehicle was launched and will start your mission. The command center will be able to track your vehicle and send coordinates and heading information of your vehicle through WiFi transmissions along with accurate information about most mission sites. All transmissions to the command center, during product demonstration, must be single messages with final values and not a running stream of other messages.
 
