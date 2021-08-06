@@ -4,5 +4,3 @@ install.packages(c("bookdown",
                    "devtools",
                    "downlit",
                    "xml2"))
-
-tinytex::install_tinytex()
