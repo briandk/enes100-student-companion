@@ -42,12 +42,12 @@ jobs:
       # Fix issue with "Edit this page" by installing latest bookdown from CRAN
       # https://github.com/rstudio/bookdown/issues/1220
       - name: Install Dependencies
-        shell: bash
-        env:
-          PAT: ${{ secrets.PERSONAL_ACCESS_TOKEN_FOR_GITHUB }}
+          uses: fusion-engineering/setup-git-credentials@v2
+          with:
+            credentials: ${{secrets.GIT_CREDENTIALS}}
         run: |
           Rscript _install_dependencies.R
-          Rscript -e "devtools::install_github('rstudio/bookdown', auth_token = $PAT)"
+          Rscript -e "devtools::install_github('rstudio/bookdown')"
 
       - name: Render book
         run: |
