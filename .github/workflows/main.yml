@@ -46,7 +46,7 @@ jobs:
           PAT: ${{ secrets.PERSONAL_ACCESS_TOKEN_FOR_GITHUB }}
         run: |
           Rscript _install_dependencies.R
-          Rscript 'devtools::install_github("rstudio/bookdown", auth_token = $PAT)'
+          Rscript "devtools::install_github('rstudio/bookdown', auth_token = $PAT)""
 
       - name: Render book
         run: |
