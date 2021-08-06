@@ -43,8 +43,8 @@ jobs:
       # https://github.com/rstudio/bookdown/issues/1220
       - name: Install Dependencies
       - uses: fusion-engineering/setup-git-credentials@v2
-          with:
-            credentials: ${{secrets.GIT_CREDENTIALS}}
+        with:
+          credentials: ${{secrets.GIT_CREDENTIALS}}
         run: |
           Rscript _install_dependencies.R
           Rscript -e "devtools::install_github('rstudio/bookdown')"
