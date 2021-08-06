@@ -1,0 +1,76 @@
+# Over Sand Vehicle (OSV) Product Specifications
+
+## Structure Requirements
+
+1.  The OSV mass (or total mass of OSV fleet) must be between 0 and 2.5 kg.
+
+2.  The OSV body and propulsion system (or entire OSV fleet if using more than one OSV) must fit within a 300 x 300 mm footprint.[^osv-product-specifications-1]
+
+3.  Any kit or pre-built assemblies may each perform functions from **at most** two of the following categories:
+
+    1.  motors / gearmotors;
+    2.  wheels / tires / treads;
+    3.  chassis;
+    4.  suspension;
+    5.  transmission / differential / drivetrain;
+    6.  motor controllers.[^osv-product-specifications-2]
+
+[^osv-product-specifications-1]: Arms or probes do not need to fit within this footprint.
+
+[^osv-product-specifications-2]: A kit is defined as a set of components sold by the same manufacturer or vendor that have been designed to seamlessly integrate together.
+
+## Power Requirements
+
+1.  The use of lithium based or lead acid battery technologies are prohibited.
+
+2.  The use of combustion engines are prohibited.
+
+3.  The OSV(s) must be able to run all systems at full power for at least 10 minutes without replenishing/recharging its energy source.
+
+## Performance Requirements
+
+1.  The OSV(s) must be able to complete all objectives for one of the missions described in the [*Over Sand Vehicle Project Overview*](#osv-project-overview) in under 5 minutes.
+
+## Communication Requirements
+
+1.  The OSV(s) must be able to transmit and receive wifi communications using the ESP8266 WiFi Communication Module.
+
+    2.  There must be a Aruco tracking marker of size between 50x50mm and 100x100mm with a 15 mm white border placed on the top of the vehicle.[^osv-product-specifications-3]
+
+[^osv-product-specifications-3]: The only exception to the switch requirement is for single cell 9v batteries if used to power the microcontroller.
+
+## Control and Navigation Requirements
+
+1.  The OSV(s) must be controlled by an Arduino compatible microcontroller.
+
+2.  The OSV(s) operation during testing must be autonomous.\[\^osv-product-specifications-4\]
+
+3.  The OSV(s) must be able to navigate to a specified point within ± 250 mm.
+
+## Safety Requirements
+
+1.  All batteries must be operated with a mechanical kill switch at all times. Batteries that have exposed leads for recharging are also required to be equipped with male/female Tamiya (or similar) connectors at all times in order to avoid dangerous shorting.[^osv-product-specifications-4]
+
+2.  No exposed pins, nails, razor blades, or other dangerously sharp objects are permitted on the OSV(s).
+
+3.  Any part of the OSV(s) that is intended to come in close proximity to a flame must be non-flammable.
+
+4.  No materials that leave a residue may be used to extinguish the flames.
+
+[^osv-product-specifications-4]: The only exception to the switch requirement is for single cell 9v batteries if used to power the microcontroller.
+
+## Cost Requirements
+
+1.  Total as-built replacement cost of the OSV(s) must be less than \$320.
+
+2.  Teams must present a Bill of Materials (BOM) that includes the Fair Market Value (FMV) for each component present on the competition vehicle.\[\^osv-product-specifications-6\]
+
+3.  All 3D printed, laser cut, and CNC milled parts on your OSV(s) must be included in your BOM.
+
+    1.  PLA parts printed in the ENES 100 laboratories cost \$0.10 per gram. CNC milling authorized through ENES 100 costs \$25 per hour.\[\^osv-product-specifications-7\]
+
+    2.  Birch plywood sheets laser cut in the ENES 100 laboratories cost \$3.00 per sheet.\[\^osv-product-specifications-8\]
+
+    3.  Acrylic sheets laser cut in the ENES 100 laboratories cost \$5.00 per sheet.\[\^osv-product-specifications-9\]
+
+    4.  CNC milling costs \$25 per hour.

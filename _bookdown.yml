@@ -10,6 +10,10 @@ rmd_files: [
 
   "supplemental-instruction.Rmd",
   "mechanics.Rmd",
+
+  "osv-introduction.Rmd",
+  "osv-product-specifications.Rmd",
+  "osv-project-overview.Rmd",
 ]
 
 
