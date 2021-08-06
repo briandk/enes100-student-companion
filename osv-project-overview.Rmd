@@ -2,66 +2,21 @@
 
 ## Background
 
-You are a member of an engineering firm that has been hired to aid the
-[<u>Balloon Payload
-Program</u>](https://md.spacegrant.org/mdsgc-programs/balloon-payload-program/)
-(BPP) at the University of Maryland. As part of the program, balloons
-are launched and tracked as they approach space-like conditions
-(85,000-100,000 feet altitude) and collect data from payloads lifted by
-the balloon. The balloon is subject to the weather conditions of the day
-and has crash landed in a sandy patch on the edge of a remote lake.
-During the landing, one of the payloads, which was carrying a hazardous
-material, stopped transmitting, and may have released its the hazardous
-material in the surrounding landing area. Until this can be verified,
-the area is not safe to enter for humans. There is time-sensitive data
-on the payloads that cannot wait until a HazMat team is able to come
-collect the payloads. Therefore, your firm is responsible for deploying
-a fleet of vehicles that can be sent to the landing site in place of
-humans. The vehicles that your firm designs must be capable of (1)
-navigating the sandy/rocky terrain; (2) scouting for, collecting, and
-analyzing natural resources and balloon payload material; and (3)
-transmitting data regarding the terrain, natural resources, and balloon
-payload data back to your design firm for further analysis.
+You are a member of an engineering firm that has been hired to aid the [<u>Balloon Payload Program</u>](https://md.spacegrant.org/mdsgc-programs/balloon-payload-program/) (BPP) at the University of Maryland. As part of the program, balloons are launched and tracked as they approach space-like conditions (85,000-100,000 feet altitude) and collect data from payloads lifted by the balloon. The balloon is subject to the weather conditions of the day and has crash landed in a sandy patch on the edge of a remote lake. During the landing, one of the payloads, which was carrying a hazardous material, stopped transmitting, and may have released its the hazardous material in the surrounding landing area. Until this can be verified, the area is not safe to enter for humans. There is time-sensitive data on the payloads that cannot wait until a HazMat team is able to come collect the payloads. Therefore, your firm is responsible for deploying a fleet of vehicles that can be sent to the landing site in place of humans. The vehicles that your firm designs must be capable of (1) navigating the sandy/rocky terrain; (2) scouting for, collecting, and analyzing natural resources and balloon payload material; and (3) transmitting data regarding the terrain, natural resources, and balloon payload data back to your design firm for further analysis.
 
-**Arena Overview** ([click here for full arena
-details](https://docs.google.com/document/d/1-Hc7P9rkwyJ6X7_Mm3Z7xfE5JGnzZCIv2vq7lUC7h7Y/edit?usp=sharing))
+**Arena Overview** ([click here for full arena details](https://docs.google.com/document/d/1-Hc7P9rkwyJ6X7_Mm3Z7xfE5JGnzZCIv2vq7lUC7h7Y/edit?usp=sharing))
 
-The mission area shown in Figure 1 indicates the location of the landing
-zone, narrow strip of navigable rocky terrain, and a representation of
-the two randomly located rocky obstacles as well as the mission
-destination site. All dimensions and coordinates are in meters and
-measured relative to the vision system’s x-y frame of reference. The
-precise coordinates of the mission destination site will be available
-via WiFi transmission during each mission attempt.
+The mission area shown in Figure 1 indicates the location of the landing zone, narrow strip of navigable rocky terrain, and a representation of the two randomly located rocky obstacles as well as the mission destination site. All dimensions and coordinates are in meters and measured relative to the vision system's x-y frame of reference. The precise coordinates of the mission destination site will be available via WiFi transmission during each mission attempt.
 
-![Mission area showing a representative arrangement of
-obstacle locations.](./media/image1.jpg)
+![Mission area showing a representative arrangement of obstacle locations.](./media/image1.jpg)
 
-Your vehicle will be parachuted to the edge of the remote lake using the
-rough GPS coordinates of the payload, and will land in a random spot
-with a random orientation. From there you will begin communicating with
-the BPP command center from which your vehicle was launched and will
-start your mission. The command center will be able to track your
-vehicle and send coordinates and heading information of your vehicle
-through WiFi transmissions along with accurate information about most
-mission sites. All transmissions to the command center, during product
-demonstration, must be single messages with final values and not a
-running stream of other messages.
+Your vehicle will be parachuted to the edge of the remote lake using the rough GPS coordinates of the payload, and will land in a random spot with a random orientation. From there you will begin communicating with the BPP command center from which your vehicle was launched and will start your mission. The command center will be able to track your vehicle and send coordinates and heading information of your vehicle through WiFi transmissions along with accurate information about most mission sites. All transmissions to the command center, during product demonstration, must be single messages with final values and not a running stream of other messages.
 
 **Missions Overview**
 
-Each firm will be divided into five teams and all five missions must be
-attempted by each firm. Your firm has assigned you to an eight-member
-team and tasked you with designing and building vehicles to complete one
-of the five missions. You must coordinate with the other design teams to
-ensure all objectives of all five missions are fulfilled. All vehicles
-must adhere to the [<u>Over Sand Vehicle Product
-Specifications</u>](https://docs.google.com/document/d/1NQLZvbwKb3WUYqVuhtf1VYOpQDceTFqGFHGXvG0mAz8/edit?usp=sharing)
-and the spirit of the design project.
+Each firm will be divided into five teams and all five missions must be attempted by each firm. Your firm has assigned you to an eight-member team and tasked you with designing and building vehicles to complete one of the five missions. You must coordinate with the other design teams to ensure all objectives of all five missions are fulfilled. All vehicles must adhere to the [<u>Over Sand Vehicle Product Specifications</u>](https://docs.google.com/document/d/1NQLZvbwKb3WUYqVuhtf1VYOpQDceTFqGFHGXvG0mAz8/edit?usp=sharing) and the spirit of the design project.
 
-1.  **Crash Site Surveying** ([<u>click here for full crash site
-    > surveying mission
-    > details</u>](https://docs.google.com/document/d/1E5oA_ECepsz8FMyAH7S-EPxRqDnXAmXXL7-jkVfSW0A/edit?usp=sharing))
+1.  **Crash Site Surveying** ([<u>click here for full crash site > surveying mission > details</u>](https://docs.google.com/document/d/1E5oA_ECepsz8FMyAH7S-EPxRqDnXAmXXL7-jkVfSW0A/edit?usp=sharing))
 
 -   Clear rocky terrain
 
@@ -71,12 +26,9 @@ and the spirit of the design project.
 
 -   Record and transmit a side height above the sand to within 25 mm
 
--   Determine which (if any) face of the buried item has ‘abnormality’
-    > and place an Aruco marker in the correct plane (+x, -x, +y, -y).
-    > If none, do not drop the aruco.
+-   Determine which (if any) face of the buried item has 'abnormality' > and place an Aruco marker in the correct plane (+x, -x, +y, -y). > If none, do not drop the aruco.
 
-1.  **Data Extraction** ([<u>click here for full data extraction mission
-    > details</u>](https://docs.google.com/document/d/1qIB698WyLYIIjUsvJ86Vpojcwn2ZKfV4lf1grHEC8-c/edit?usp=sharing))
+1.  **Data Extraction** ([<u>click here for full data extraction mission > details</u>](https://docs.google.com/document/d/1qIB698WyLYIIjUsvJ86Vpojcwn2ZKfV4lf1grHEC8-c/edit?usp=sharing))
 
 -   Clear rocky terrain
 
@@ -84,15 +36,11 @@ and the spirit of the design project.
 
 -   Physically connect to at least one of the payload output ports
 
--   Extract and correctly transmit the data in the form of a capital
-    > letter to mission control
+-   Extract and correctly transmit the data in the form of a capital > letter to mission control
 
--   Physically remove all contact with the payload with the weatherproof
-    > cap returned to its original position
+-   Physically remove all contact with the payload with the weatherproof > cap returned to its original position
 
-1.  **Fire Suppression** ([<u>click here for full fire suppression
-    > mission
-    > details</u>](https://docs.google.com/document/d/1IWeIomRVEpPVLiHpm_bRgOYbGoPHEdNCctmCcJoRv-Q/edit?usp=sharing))
+1.  **Fire Suppression** ([<u>click here for full fire suppression > mission > details</u>](https://docs.google.com/document/d/1IWeIomRVEpPVLiHpm_bRgOYbGoPHEdNCctmCcJoRv-Q/edit?usp=sharing))
 
 -   Clear rocky terrain
 
@@ -102,12 +50,9 @@ and the spirit of the design project.
 
 -   Measure and correctly transmit the number of active flames present
 
--   Contain the fire by extinguishing all flames except for the middle
-    > flame
+-   Contain the fire by extinguishing all flames except for the middle > flame
 
-1.  **Material Identification** ([<u>click here for full material
-    > identification mission
-    > details</u>](https://docs.google.com/document/d/1IlN6SNC8P64TDDaccrwKho1TyrswsfotBSnpKMy-cGc/edit?usp=sharing))
+1.  **Material Identification** ([<u>click here for full material > identification mission > details</u>](https://docs.google.com/document/d/1IlN6SNC8P64TDDaccrwKho1TyrswsfotBSnpKMy-cGc/edit?usp=sharing))
 
 -   Clear rocky terrain
 
@@ -117,34 +62,25 @@ and the spirit of the design project.
 
 -   Acquire the material by lifting it entirely off of the sand
 
--   Determine the mass of the material to within 20 g and transmit the
-    > result
+-   Determine the mass of the material to within 20 g and transmit the > result
 
-1.  **Water Sampling** ([<u>click here for full water sampling mission
-    > details</u>](https://docs.google.com/document/d/1JbJ0NeP2qdxii9F3J787bd-KwNJ1d65Vd-511XUuUVM/edit?usp=sharing))
+1.  **Water Sampling** ([<u>click here for full water sampling mission > details</u>](https://docs.google.com/document/d/1JbJ0NeP2qdxii9F3J787bd-KwNJ1d65Vd-511XUuUVM/edit?usp=sharing))
 
 -   Clear rocky terrain
 
 -   Navigate to within 250 mm of the edge of the water pool
 
--   Measure and correctly transmit whether the pool has freshwater,
-    > saltwater,  
-    > polluted freshwater, or polluted saltwater
+-   Measure and correctly transmit whether the pool has freshwater, > saltwater,\
+    \> polluted freshwater, or polluted saltwater
 
--   Measure and transmit the depth of the water in the pool to within 4
-    > mm
+-   Measure and transmit the depth of the water in the pool to within 4 > mm
 
--   Collect a sample of 30 – 45 ml of water from the pool
+-   Collect a sample of 30 -- 45 ml of water from the pool
 
 **Design Awards**
 
-Teams and their OSVs may be considered for one or more [<u>Design
-Awards</u>](https://docs.google.com/document/d/113I5rp7XIQWljgvf9lSPiDWo75gFPPVJcZ0dgullJBY/edit?usp=sharing).
+Teams and their OSVs may be considered for one or more [<u>Design Awards</u>](https://docs.google.com/document/d/113I5rp7XIQWljgvf9lSPiDWo75gFPPVJcZ0dgullJBY/edit?usp=sharing).
 
 **Project Ethics**
 
-At each milestone and at the product showcase, vehicles should indicate
-which sensors are capable of providing which functions. Providing a
-vehicle which alleges to provide mission capabilities that are absent or
-malfunctioning is not acceptable. Modification, deconstruction, or
-tampering with course provided mission hardware is forbidden.
+At each milestone and at the product showcase, vehicles should indicate which sensors are capable of providing which functions. Providing a vehicle which alleges to provide mission capabilities that are absent or malfunctioning is not acceptable. Modification, deconstruction, or tampering with course provided mission hardware is forbidden.
