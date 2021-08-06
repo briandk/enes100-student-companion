@@ -43,13 +43,15 @@
 
 1.  The OSV(s) must be controlled by an Arduino compatible microcontroller.
 
-2.  The OSV(s) operation during testing must be autonomous.\[\^osv-product-specifications-4\]
+2.  The OSV(s) operation during testing must be autonomous.[^osv-product-specifications-4]
 
 3.  The OSV(s) must be able to navigate to a specified point within ± 250 mm.
 
+[^osv-product-specifications-4]: The only exception to the switch requirement is for single cell 9v batteries if used to power the microcontroller.
+
 ## Safety Requirements
 
-1.  All batteries must be operated with a mechanical kill switch at all times. Batteries that have exposed leads for recharging are also required to be equipped with male/female Tamiya (or similar) connectors at all times in order to avoid dangerous shorting.[^osv-product-specifications-4]
+1.  All batteries must be operated with a mechanical kill switch at all times. Batteries that have exposed leads for recharging are also required to be equipped with male/female Tamiya (or similar) connectors at all times in order to avoid dangerous shorting.[^osv-product-specifications-5]
 
 2.  No exposed pins, nails, razor blades, or other dangerously sharp objects are permitted on the OSV(s).
 
@@ -57,20 +59,28 @@
 
 4.  No materials that leave a residue may be used to extinguish the flames.
 
-[^osv-product-specifications-4]: The only exception to the switch requirement is for single cell 9v batteries if used to power the microcontroller.
+[^osv-product-specifications-5]: The only exception to the switch requirement is for single cell 9v batteries if used to power the microcontroller.
 
 ## Cost Requirements
 
 1.  Total as-built replacement cost of the OSV(s) must be less than \$320.
 
-2.  Teams must present a Bill of Materials (BOM) that includes the Fair Market Value (FMV) for each component present on the competition vehicle.\[\^osv-product-specifications-6\]
+2.  Teams must present a Bill of Materials (BOM) that includes the Fair Market Value (FMV) for each component present on the competition vehicle.[^osv-product-specifications-6]
 
 3.  All 3D printed, laser cut, and CNC milled parts on your OSV(s) must be included in your BOM.
 
-    1.  PLA parts printed in the ENES 100 laboratories cost \$0.10 per gram. CNC milling authorized through ENES 100 costs \$25 per hour.\[\^osv-product-specifications-7\]
+    1.  PLA parts printed in the ENES 100 laboratories cost \$0.10 per gram. CNC milling authorized through ENES 100 costs \$25 per hour.[^osv-product-specifications-7]
 
-    2.  Birch plywood sheets laser cut in the ENES 100 laboratories cost \$3.00 per sheet.\[\^osv-product-specifications-8\]
+    2.  Birch plywood sheets laser cut in the ENES 100 laboratories cost \$3.00 per sheet.[^osv-product-specifications-8]
 
-    3.  Acrylic sheets laser cut in the ENES 100 laboratories cost \$5.00 per sheet.\[\^osv-product-specifications-9\]
+    3.  Acrylic sheets laser cut in the ENES 100 laboratories cost \$5.00 per sheet.[^osv-product-specifications-9]
 
     4.  CNC milling costs \$25 per hour.
+
+[^osv-product-specifications-6]: Cost is calculated by adding the FMV of all components used on the OSV during final testing. Cost does not include any shipping costs, and does not include costs for parts that were bought but later discarded/returned. Costs must be shared equally among group members.
+
+[^osv-product-specifications-7]: All 3D printed parts for your OSV projects printed in the ENES100 laboratories will be provided to you at no cost. The charge for CNC milling services authorized through ENES100 is provided to you at no cost. However, you must budget the FMV of the 3D printed parts and milling services on your final OSV into your OSV vehicle cost.
+
+[^osv-product-specifications-8]: The only wood permitted to be cut in the ENES100 laboratory laser cutter is ⅛" inch 12"x12" Birch Plywood. Each team will receive one complimentary sheet of wood, the cost of which must still be included in the BOM if used. Any additional sheets of wood must be bought from the Keystone Department in 2108 JM Patterson.
+
+[^osv-product-specifications-9]: The only acrylic permitted to be cut in the ENES100 laboratory laser cutter is ⅛" inch 12"x12" extruded film masked acrylic sheets. Each team will receive one complimentary sheet of acrylic, the cost of which must still be included in the BOM if used. Any additional sheets of acrylic must be bought from the Keystone Department in 2108 JM Patterson.
