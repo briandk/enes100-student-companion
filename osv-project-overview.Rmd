@@ -22,15 +22,15 @@ Each firm will be divided into five teams and all five missions must be attempte
 -   Navigate to within 250 mm of the buried item
 -   Record and transmit a side length to within 25 mm
 -   Record and transmit a side height above the sand to within 25 mm
--   Determine which (if any) face of the buried item has 'abnormality' > and place an Aruco marker in the correct plane (+x, -x, +y, -y). > If none, do not drop the aruco.
+-   Determine which (if any) face of the buried item has 'abnormality' and place an Aruco marker in the correct plane (+x, -x, +y, -y). If none, do not drop the aruco.
 
 ### Data Extraction ([click here for full data extraction mission details](https://docs.google.com/document/d/1qIB698WyLYIIjUsvJ86Vpojcwn2ZKfV4lf1grHEC8-c/edit?usp=sharing))
 
 -   Clear rocky terrain
 -   Navigate to within 250 mm of the edge of the payload
 -   Physically connect to at least one of the payload output ports
--   Extract and correctly transmit the data in the form of a capital > letter to mission control
--   Physically remove all contact with the payload with the weatherproof > cap returned to its original position
+-   Extract and correctly transmit the data in the form of a capital letter to mission control
+-   Physically remove all contact with the payload with the weatherproof cap returned to its original position
 
 ### Fire Suppression ([click here for full fire suppression mission details](https://docs.google.com/document/d/1IWeIomRVEpPVLiHpm_bRgOYbGoPHEdNCctmCcJoRv-Q/edit?usp=sharing))
 
@@ -38,7 +38,7 @@ Each firm will be divided into five teams and all five missions must be attempte
 -   Navigate to within 250 mm of the fire site
 -   Clear all wood debris within a 250 mm radius of the fire site
 -   Measure and correctly transmit the number of active flames present
--   Contain the fire by extinguishing all flames except for the middle > flame
+-   Contain the fire by extinguishing all flames except for the middle flame
 
 ### Material Identification ([click here for full material identification mission details](https://docs.google.com/document/d/1IlN6SNC8P64TDDaccrwKho1TyrswsfotBSnpKMy-cGc/edit?usp=sharing))
 
@@ -46,7 +46,7 @@ Each firm will be divided into five teams and all five missions must be attempte
 -   Navigate to within 250 mm of the payload debris
 -   Measure and correctly transmit the type of material present
 -   Acquire the material by lifting it entirely off of the sand
--   Determine the mass of the material to within 20 g and transmit the > result
+-   Determine the mass of the material to within 20 g and transmit the result
 
 ### Water Sampling ([click here for full water sampling mission details](https://docs.google.com/document/d/1JbJ0NeP2qdxii9F3J787bd-KwNJ1d65Vd-511XUuUVM/edit?usp=sharing))
 
