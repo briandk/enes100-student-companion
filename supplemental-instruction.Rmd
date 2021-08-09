@@ -34,7 +34,7 @@ $$
 
 When we first run our Arduino, we do the now-traditional programming trick of having it say hello to the world:
 
-``` c
+```{c arduino-setup, eval=FALSE}
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
