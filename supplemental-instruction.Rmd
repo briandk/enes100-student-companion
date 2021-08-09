@@ -1,6 +1,6 @@
 # (PART) Supplemental Instruction {.unnumbered}
 
-# Introduction {#import-intro}
+# Introduction
 
 Creating a successful robot requires a knowledge of three core domains:
 
