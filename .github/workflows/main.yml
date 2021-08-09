@@ -32,9 +32,6 @@ jobs:
       - name: Setup Pandoc
         uses: r-lib/actions/setup-pandoc@master
 
-      - name: Setup TinyTeX
-        uses: r-lib/actions/setup-tinytex@master
-
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
